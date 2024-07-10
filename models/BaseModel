@@ -1,0 +1,10 @@
+class BaseModel {
+    constructor(eventName, eventData, eventError, errorCode) {
+      this.eventName = eventName;
+      this.eventData = eventData;
+      this.eventError = eventError;
+      this.errorCode = errorCode;
+    }
+  }
+  
+  module.exports = BaseModel;
